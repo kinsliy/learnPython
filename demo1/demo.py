@@ -85,7 +85,7 @@ from sum import length ;
 
 length([',','2']);
 
-file = open(r'／hello.txt','r+');
+file = open('hello.txt','r+');
 
 str = file.read();
 
