@@ -85,8 +85,23 @@ from sum import length ;
 
 length([',','2']);
 
-file = open('hello.txt','r+');
+file = open('/Users/liuwei/Desktop/Python/demo1/hello.txt','r+');
 
-str = file.read();
+str = file.read(8);
 
-print(str)
+file.write('i love you')
+
+print(file.name)
+
+print(str);
+
+class myname:
+    
+    name='hello1'
+
+name1= myname();
+
+print(name1.name)
+
+
+
