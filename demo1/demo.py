@@ -99,9 +99,12 @@ class myname:
     
     name='hello1'
 
-name1= myname();
+    def __init__ (self,name):
+        self.name1=name;
 
-print(name1.name)
+name1= myname('你好');
+
+print(name1.name1)
 
 
 
