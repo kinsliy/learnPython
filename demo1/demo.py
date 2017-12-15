@@ -31,5 +31,18 @@ list3=('hello','wolrd');
 
 print(list3[1])
 
+object1 ={'name':'kinsliy','age':'22'};
 
+print(object1['name']);
+
+object1.clear();
+
+print(10*12);
+
+name='kinsliy';
+
+if name=='kinsliy':
+    print('welcome');
+else:
+    print(name)
 
