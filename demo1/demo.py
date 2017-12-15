@@ -46,3 +46,24 @@ if name=='kinsliy':
 else:
     print(name)
 
+num=9;
+
+if num<10:
+    if num>5:
+        print('大于5')
+
+else:
+    print('大于10')
+
+count=0;
+while count<3:
+    print ('count is',count);
+    count=count+1;
+
+print ('goodbye');
+
+letters ='kinsliy';
+
+for x in letters:
+    print(x)
+
