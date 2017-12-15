@@ -67,3 +67,15 @@ letters ='kinsliy';
 for x in letters:
     print(x)
 
+for x in range(0,5,2):
+    print (x);
+
+def name (item):
+    print (item);
+
+
+name('who are you ');
+
+import sum;
+
+sum.sum(10,12);
