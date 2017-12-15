@@ -1,4 +1,5 @@
 
+
 print ('hello world');
 
 # hello 
@@ -79,3 +80,13 @@ name('who are you ');
 import sum;
 
 sum.sum(10,12);
+
+from sum import length ;
+
+length([',','2']);
+
+file = open(r'／hello.txt','r+');
+
+str = file.read();
+
+print(str)
