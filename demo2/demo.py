@@ -1,4 +1,6 @@
 
-print ('new life');
+print ('new life'); 
+
+print('change my mind')
 
 
