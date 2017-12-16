@@ -1,7 +1,8 @@
 
 print ('new life'); 
 
-print ('vsc')
+print ('vsc');
+# name=input();
 
 
 
