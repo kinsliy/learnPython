@@ -28,7 +28,7 @@ search(myList,-1);
 search(myList,9)
 
 
-#算法
+#第二个算法实现
 
 
 
