@@ -23,12 +23,33 @@ def search(list,item):
 
 myList=[1,3,5,7,9];
 
-search(myList,3);
-search(myList,-1);
-search(myList,9)
+#search(myList,3);
+#search(myList,-1);
+#search(myList,9)
 
 
-#第二个算法实现
+#第二个算法实现 选择排序
+
+def findSmallest(arr):
+    smallest=arr[0];
+    smallIndex=0;
+    for i in range(1,len(arr)):
+        if(arr[i]<smallest):
+            smallest=arr[i];
+            smallIndex=i;
+    return smallIndex;
+
+
+def selectionSort(arr):
+    newArr=[];
+    for i in range(len(arr)):
+        smallest=findSmallest(arr);
+        newArr.append(arr.pop(smallest))
+    print(newArr);
+
+
+selectionSort([2,3,5,7,1]);
+
 
 
 
