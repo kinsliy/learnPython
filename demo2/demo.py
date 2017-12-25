@@ -11,7 +11,7 @@ class teacher:
     name='kinsliy'
 
 
-var teacher1= teacher();
+teacher1= teacher();
 
 print(teacher1.name)
 
