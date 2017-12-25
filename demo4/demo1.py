@@ -48,11 +48,21 @@ def selectionSort(arr):
     print(newArr);
 
 
-selectionSort([2,3,5,7,1]);
+#selectionSort([2,3,5,7,1]);
 
+#第三个算法 实现一个递归
 
+def fact(x):
+     if x==1:
+        return 1;
+     else:
+        return x*fact(x-1)
 
+print(fact(3))
 
+#具体的关于递归怎么运行的？ 以及函数运行时的调用栈
+
+#可以去查看这本书，讲的很详细，类比js函数运行的时候也是调用栈
 
 
 
