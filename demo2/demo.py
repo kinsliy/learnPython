@@ -1,6 +1,8 @@
 
 print ('new life'); 
 
+print('happy new year')
+
 print ('vsc');
 # name=input();
 
